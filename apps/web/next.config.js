@@ -1,8 +1,8 @@
 module.exports = {
-  reactStrictMode: true,
-  swcMinify: true,
+  // reactStrictMode: true,
+  // swcMinify: true,
   experimental: {
     appDir: true,
-    transpilePackages: ["ui"]
+    transpilePackages: ["ui", "octopus"]
   },
 };
